@@ -9,8 +9,6 @@ import {
 } from '@nestjs/common';
 import { ShoppingCartItemsService } from './shopping-cart-items.service';
 import { Prisma } from 'generated/prisma';
-// import { CreateShoppingCartItemDto } from './dto/create-shopping-cart-item.dto';
-// import { UpdateShoppingCartItemDto } from './dto/update-shopping-cart-item.dto';
 
 @Controller('shopping-cart-items')
 export class ShoppingCartItemsController {

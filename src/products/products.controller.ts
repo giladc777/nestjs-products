@@ -9,8 +9,6 @@ import {
 } from '@nestjs/common';
 import { ProductsService } from './products.service';
 import { Prisma } from 'generated/prisma';
-// import { CreateProductDto } from './dto/create-product.dto';
-// import { UpdateProductDto } from './dto/update-product.dto';
 
 @Controller('products')
 export class ProductsController {

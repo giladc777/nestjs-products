@@ -1,8 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { Prisma } from 'generated/prisma';
 import { DatabaseService } from 'src/database/database.service';
-// import { CreateShoppingCartItemDto } from './dto/create-shopping-cart-item.dto';
-// import { UpdateShoppingCartItemDto } from './dto/update-shopping-cart-item.dto';
 
 @Injectable()
 export class ShoppingCartItemsService {
