@@ -7,9 +7,18 @@ import { CategoriesModule } from './categories/categories.module';
 import { ProductsModule } from './products/products.module';
 import { ShoppingCartsModule } from './shopping-carts/shopping-carts.module';
 import { ShoppingCartItemsModule } from './shopping-cart-items/shopping-cart-items.module';
+import { AuthModule } from './auth/auth.module';
 
 @Module({
-  imports: [DatabaseModule, UsersModule, CategoriesModule, ProductsModule, ShoppingCartsModule, ShoppingCartItemsModule],
+  imports: [
+    DatabaseModule,
+    UsersModule,
+    CategoriesModule,
+    ProductsModule,
+    ShoppingCartsModule,
+    ShoppingCartItemsModule,
+    AuthModule,
+  ],
   controllers: [AppController],
   providers: [AppService],
 })
